@@ -1,0 +1,403 @@
+.nav{
+  background-color: orange;
+  opacity: 0.2px;
+}
+.navbar{
+  clear: both;
+  opacity: 0.2px;
+  margin: auto;
+}
+.navbar>p{
+  font-size: 15px;
+  font-weight: bold;
+  margin:auto;
+}
+.navbar:hover{
+  background-color: brown;
+}
+.right{
+  float: right;
+}
+.row>p{
+  margin: auto;
+}
+.details{
+  font-size: 17px;
+}
+#shop{
+  float:right;
+}
+.icon{
+  height: 30px;
+}
+.btn-warning{
+  padding: 1px 2px 2px 2px;
+}
+.row>button{
+  margin: 3px;
+}
+.featured{
+  height: 100px;
+}
+.holder{
+  height:150px;
+  margin: auto;
+}
+.meal{
+  height:150px;
+  margin: auto;
+}
+#featuredMeal{
+  padding-left: 10px;
+}
+#choice1,#choice2,#choice3{
+  display: none;
+}
+#emm{
+  border-radius: 30px;
+}
+#breakfast,#content1,#content2{
+  display: none;
+}
+#lunch{
+  height: 300px;
+  display: none;
+}
+#dinner{
+  display: none;
+}
+#footer{
+  background-color: #FC9E15;
+  #8B4513;
+  height: 370px;
+  width: 95%;
+  padding:inherit;
+  margin: auto;
+}
+#top{
+  z-index: 2;
+  position:fixed;
+  width: 100%;
+}
+#categories{
+  height: 300px;
+  margin-bottom: 100px;
+}
+#people{
+  width: 90px;
+}
+#logo>span{
+  background-color: black;
+  opacity: 0.6;
+}
+#logo{
+  padding-top: 150px;
+  font-size: 140px;
+  color: orange;
+  font-family: Srisakdi;
+}
+#startParallax{
+  height: 490px;
+  background-image: url("../images/pexels-photo-277253.jpeg");
+  background-position:top;
+  background-attachment: fixed;
+  overflow: inherit;
+  position: inherit;
+}
+#display{
+  font-size: 30px;
+}
+#myCarousel{
+  height: 300px;
+}
+#morning, #noon, #night{
+color: orange !important;
+text-align: center;
+font-size: 25px;
+font-weight: 600;
+font-family: 'Roboto', sans-serif;
+}
+main{
+  max-width: 98%;
+  overflow-x: hidden;
+  z-index: 1;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width:800px){
+  #categories{
+    height: 300px;
+    margin-bottom: auto;
+  }
+  .nav{
+    display: block;
+  }
+  .navbar>p{
+    font-size: 10px;
+    font-weight: bold;
+    margin:auto;
+  }
+  #top{
+    z-index: 2;
+    background-color: orange;
+
+  }
+  #logo{
+    padding-top: 170px;
+    font-size: 60px;
+    color: orange;
+    font-family: Srisakdi;
+  }
+  .details{
+    font-size: 13px;
+  }
+  .icon{
+    height: 10px;
+  }
+  #startParallax{
+    padding-top: 150px;
+    height: 490px;
+    background-image: url("../images/pexels-photo-277253.jpeg");
+    background-position:top;
+    background-attachment: fixed;
+    overflow: inherit;
+    position: inherit;
+  }
+  .holder{
+    height:50px;
+    margin: auto;
+  }
+  .meal{
+    height:150px;
+    margin: auto;
+  }
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: auto;
+      max-height: 100px;
+      max-width: 100px;
+      text-align: center;
+      font-family: arial;
+    }
+    .card>p,.card>h1,.card>h2{
+      font-size: 10px;
+    }
+    .card>img{
+      height: 100px;
+    }
+    .item,.carousel-inner{
+      width: 100%;
+      height: 180px;
+    }
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    max-width:100%;
+    max-height:100%;
+    text-align: center;
+    font-family: arial;
+  }
+  .card>img{
+    height: 100px;
+    width: auto;
+  }
+  .card>p,.card>h1,.card>h2{
+    font-size: 10px;
+  }
+  .row.fine{
+    width: 100%;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+.left {
+		float:left;
+		width:278px;
+		padding:10px;
+		background:#eef;
+		border:1px dotted #0f0;
+	}
+	.center {
+		float:left;
+		width:278px;
+		padding:10px;
+		background:#fee;
+		border:1px dotted #f00;
+	}
+		.right {float:right;
+			width:278px;
+			padding:10px;
+			background:#efe;
+			border:1px dotted #00f;
+		}
+
+.foods{
+  padding-top:50px;
+}
+  .pic{
+    height: 400px;
+    width: auto;
+  }
+
+  .title {
+    font-family: 'Srisakdi', cursive;
+    color: grey;
+    font-size: 2em;
+  }
+  .review{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+  }
+  .name{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Srisakdi', cursive;
+
+  }
+  .title{
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Srisakdi', cursive;
+  }
+
+  .item,.carousel-inner{
+    width: 600px;
+    height: 120px;
+  }
+  section.awSlider .carousel{
+  display:table;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+	-webkit-box-shadow: 0 0 4px #444;
+	box-shadow: 0 0 15px rgba(1,1,1,.5);
+}
+
+section.awSlider{
+  margin:30px auto;
+  padding:30px;
+  position:relative;
+  display:table;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+section.awSlider:hover > img{
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity:1;
+}
+
+section.awSlider img{
+   pointer-events: none;
+}
+
+section.awSlider > img{
+  position:absolute;
+  top:0px;
+  z-index:1;
+  transition:all .3s;
+  filter: blur(1.8vw);
+  -webkit-filter: blur(2vw);
+  -moz-filter: blur(2vw);
+  -o-filter: blur(2vw);
+  -ms-filter: blur(2vw);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity:.5;
+}
+blockquote{
+  font-size: 1.4em;
+  width:100%;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #FB6D37 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+.review-footer{
+  display:block;
+  color: #FB6D37;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:0.5em;
+}
+.image-responsive{
+  width: 480px;
+  height: 450px;
+  max-height: 500px;
+  background-attachment: fixed;
+
+}
+
+.name{
+  text-align: center;
+  color: red;
+  font-family: 'Srisakdi', cursive;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+}
+.name2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+p{
+  font-family: 'Roboto', sans-serif,;
+  font-size: 13px;
+  font-weight: 400;
+}
+input{
+  width: 15px;
+  height:15px;
+}
+.food{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: orange;
+}
+.same{
+  font-family: 'Srisakdi', cursive;
+  font-size: 30px;
+  color: #0B8E99;
+  text-decoration: underline;
+}
+.staff{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: black;
+}
